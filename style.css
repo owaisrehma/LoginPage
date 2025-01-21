@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(120deg, #007bff, #d0314c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+    
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 570px;
+    border-radius: 20px;
+    
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Roboto;
+}
+
+.container br {
+    color: gray;
+}
+
+form {
+    text-align: center;
+    
+    
+}
+
+.Username {
+    border: none;
+    margin-top: 50px;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    outline: none;
+}
+
+.Password {
+    border: none;
+    margin: 40px;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    outline: none;
+    
+}
+
+.Forget_password {
+    border: none;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    outline: none;
+}
+
+.Forget_password:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: gray;
+}
+
+.box {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
+
+.btn {
+    margin: 40px;
+    padding: 20px 160px 20px 160px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.btn:hover {
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.member {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin-top: -20px;
+}
+
+.sign {
+    color: skyblue;
+    
+}
+
+.sign:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
